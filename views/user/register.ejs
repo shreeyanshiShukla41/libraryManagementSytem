@@ -1,0 +1,26 @@
+<%- include("../includes/header") %>
+
+<body>
+<%- include("../includes/navbar") %>
+
+  <center>
+    <form method="post">
+      <h1>User Registration Form</h1>
+      <div>
+        <label for="uname">Enter FullName</label>
+        <input name="uname" type="text"/>
+      </div>
+      <div>
+        <label for="uemail">Enter Email</label>
+        <input name="uemail" type="email"/>
+      </div>
+      <div>
+        <label for="upassword">Enter password</label>
+        <input name="upassword" type="password"/>
+      </div>
+      <button>Register</button>
+    </form>
+    <div>Already registered? <a href="/api/user/login">login from here</a></div>
+  </center>
+</body>
+</html>

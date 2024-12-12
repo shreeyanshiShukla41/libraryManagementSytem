@@ -1,0 +1,26 @@
+<%- include("../includes/header") %>
+<body>
+  <!-- user's navbar -->
+<%- include("navbar") %>
+
+
+  <center>
+    <h1>Login As a User</h1>
+    <form method="post">
+       <div>
+        <label for="uemail">Enter email</label>
+        <input type="email" name="uemail">
+       </div>
+       <div>
+        <label for="upassword">Enter password</label>
+        <input type="password" name="upassword"/>
+       </div>
+       <button>Login</button>
+    </form>
+    Not registered? <a href="/api/user/register">get registered here</a> 
+    
+  
+
+<%- include("../includes/footer") %>
+</center>
+</body>

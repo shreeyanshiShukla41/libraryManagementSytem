@@ -1,0 +1,23 @@
+<%- include("../includes/header") %>
+
+<body>
+<center>
+  
+  <form align="center" method="post">
+    <h1>Admin login Form</h1>
+     <div>
+      <label for="aemail">Enter registered email</label>
+      <input type="email" name="aemail"/>
+     </div>
+     <div>
+     <label for="apassword">Enter password</label>
+     <input type="password" name="apassword">
+    </div>
+    <button>Login</button>
+  </form>
+  <span>not registered</span>
+  <a href="/api/admin/register">get registered here</a> 
+<%- include("../includes/footer") %>
+</center>
+
+</body>
